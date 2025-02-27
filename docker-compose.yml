@@ -2,6 +2,6 @@ version: '3.3'
 services:
   frontend:
   image: htetoothu/234-deploylab-frontend:latest
-  pull_p:licy: always
+  pull_policy: always
   ports:
     - "8086:80"
